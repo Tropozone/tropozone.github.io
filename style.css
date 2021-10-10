@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: 'Italiana', serif;
+    font-family: 'Space Mono', monospace;
+}
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    background-image: url('images/overlay.png'), url('images/test.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner .navbar {
+    margin-top: 1.8%;
+}
+
+.banner .navbar-collective {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.8em;
+    color: white;
+    text-decoration: none;
+    margin-left: 6%;
+}
+
+.banner .nav {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.8em;
+    margin-right: 6%;
+}
+
+.banner .nav li a {
+    color: aliceblue;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.banner .info {
+    margin-top: 12%;
+    transform: translateY(-5%);
+}
+
+.banner .info h1 {
+    font-family: 'Italiana', serif;
+    font-size: 5em;
+    color: #fff;
+}
+
+.banner .info p {
+    margin-top: -20%;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.banner .info a {
+    margin-left: 45%;
+    transform: translateX(-50%);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.banner .navbar-collective a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.more {
+    margin-top: 8%;
+    height: 70vh;
+    width: 100%;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.more .info h1 {
+    font-family: 'Italiana', serif;
+    font-size: 2.7em;
+    color: black;
+}
+
+.more .info p {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9em;
+    color: black;
+}
+
+.end {
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, white, yellow);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.end .info h1 {
+    margin-top: 55%;
+    font-family: 'Italiana', serif;
+    font-size: 2.7em;
+    color: black;
+}
+
+.end .info p {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.9em;
+    align-content: center;
+    color: black;
+}
+
+.end .info a {
+    color: black;
+}
